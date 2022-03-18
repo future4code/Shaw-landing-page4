@@ -1,46 +1,51 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*HEADER*/
 
-header {
-    background-color: #132235;;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-}   
+.imagenheader {
+  border-top: 2%;
+  display: flex;
 
-header nav a {
-    color: #6ddad3;
-    text-decoration: none;
-    padding: 0em 1em;
-    font-size: 1.5em;
-    width: 75%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #132235;
+  border: 1vmin solid #6ddad3;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
 }
 
-a:hover {
-    text-decoration: underline;
+.imglogo {
+  width: 22%;
 }
 
-header img {
-    width: 25%;
+.marca {
+  color: #6ddad3;
+  justify-content: flex-start;
+}
+
+#txtcor {
+  color: #6ddad3;
 }
 
 /*MAIN*/
 
 .mainPrincipal {
-    background-color: #ffffff;
-    color: #132235;
-    display: flex;
-    flex-direction: column;
+  background-color: #ffffff;
+  color: #132235;
+  display: flex;
+  flex-direction: column;
 }
 
 /*QUEM SOMOS*/
+
+/* martinelli
 
 .quemSomos {
     display: flex;
@@ -49,15 +54,15 @@ header img {
     align-items: center;
     background: url("https://blog.credpago.com.br/wp-content/uploads/2020/06/credpago_credpagonovonegocio_image_515.jpeg");
     background-position: 100% 10%;
-    background-size: 100%;
+    background-size: cover;
     height: 80vh;
     width: 100%;
-    opacity: 85%;
+    opacity: 90%;
 }
 
 .quemSomosTexto {
     color: white;
-    background-color: #1322359f;
+    background-color: rgba(0, 0, 0, 0.466);
     width: 60%;
     margin-top: -6%;
     margin-bottom: 6%;
@@ -65,68 +70,113 @@ header img {
     font-size: 2em;
     padding: 0.5em;
 }
+*/
+
+.quemSomos {
+  background-image: url("https://www.eagleintercambio.com/wp-content/uploads/2021/08/carteirinha-de-estudande-internacional-1024x576.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.textoQuemSomos {
+  width: 40vw;
+  height: 20vh;
+  text-align: left;
+  padding-top: 3em;
+  padding: 2em;
+  white-space: pre-line;
+  font-size: 1.5em;
+}
 
 /*NOSSOS PRODUTOS*/
 
 .nossosProdutos {
-    font-size: 2em;
-    padding: 2em 4rem;
-    background-color: #132235;
-    color: #ffffff;
-    text-align: justify;
+  font-size: 1.5em;
+  padding: 2em 4rem;
+  background-color: #132235;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.nossosProdutos h2 {
+  text-align: center;
 }
 
 .coliving {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .artigoProduto {
-    padding-left:1%;
-
+  padding-top: 2em;
 }
 
 .listaDeVantagens {
-    padding-left: 1em;
-
+  padding-left: 1em;
+  padding-top: 1em;
 }
 
 #imagemColiving {
-    width: 40vw;
-    border-radius:24px;
+  width: 80%;
+  border-radius: 16px;
 }
 
 .kitnet {
-    display: flex;
-    image-resolution: 1; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .artigoKitnet {
-    width: 40vw;
+  padding-top: 2em;
 }
 
 #imagemKitnet {
-    width: 50vw;
+  width: 80%;
+  border-radius: 16px;
+}
+
+/*Contato*/
+
+.contato {
+  padding: 2em;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #132235;
+}
+
+.botaoFormulario {
+  width: 20%;
+  align-items: center;
 }
 
 /*FOOTER*/
 
 footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #132235;
-    color: #6ddad3;
-    padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #132235;
+  color: #6ddad3;
+  padding: 1em;
 }
 
 footer p {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 footer nav {
-    padding: 1em 0;
+  padding: 1em 0;
 }
 
 footer nav a {
-    padding: 1em;
+  padding: 1em;
 }
