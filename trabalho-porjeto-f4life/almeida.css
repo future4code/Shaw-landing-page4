@@ -4,14 +4,20 @@
     justify-content: space-between;
     align-items: center;
     background-color: #132235;
-    border: 3px solid  #6ddad3;
+    border: 1vmin solid  #6ddad3;
     flex-direction: row;
     width: 100%;
     padding: 10px;
     
 }
+#letraTamanho{
+    font-size: 100%;
+}
+
 .imglogo{
-     width: 8% ;
+     width: 22% ;
+    
+     
     
 }
 .marca{
