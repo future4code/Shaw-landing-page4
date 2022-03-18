@@ -4,10 +4,11 @@
     justify-content: space-between;
     align-items: center;
     background-color: #132235;
+    padding: 10px;
     border: 1vmin solid  #6ddad3;
     flex-direction: row;
     width: 100%;
-    padding: 10px;
+    
     
 }
 #letraTamanho{
