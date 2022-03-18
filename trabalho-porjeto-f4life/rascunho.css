@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*HEADER*/
+
+header {
+    background-color: #132235;;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+header nav a {
+    color: #6ddad3;
+    text-decoration: none;
+    padding: 0em 1em;
+    font-size: 1.5em;
+    width: 75%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header img {
+    width: 25%;
+}
+
+/*MAIN*/
+
+.mainPrincipal {
+    background-color: #ffffff;
+    color: #132235;
+    display: flex;
+    flex-direction: column;
+}
+
+/*QUEM SOMOS*/
+
+.quemSomos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("https://blog.credpago.com.br/wp-content/uploads/2020/06/credpago_credpagonovonegocio_image_515.jpeg");
+    background-position: 100% 10%;
+    background-size: 100%;
+    height: 80vh;
+    width: 100%;
+    opacity: 85%;
+}
+
+.quemSomosTexto {
+    color: white;
+    background-color: #1322359f;
+    width: 60%;
+    margin-top: -6%;
+    margin-bottom: 6%;
+    text-align: center;
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+/*NOSSOS PRODUTOS*/
+
+.nossosProdutos {
+    font-size: 2em;
+    padding: 2em 4rem;
+    background-color: #132235;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.coliving {
+    display: flex;
+}
+
+.artigoProduto {
+    padding-left:1%;
+
+}
+
+.listaDeVantagens {
+    padding-left: 1em;
+
+}
+
+#imagemColiving {
+    width: 40vw;
+    border-radius:24px;
+}
+
+.kitnet {
+    display: flex;
+    image-resolution: 1; 
+}
+
+.artigoKitnet {
+    width: 40vw;
+}
+
+#imagemKitnet {
+    width: 50vw;
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #132235;
+    color: #6ddad3;
+    padding: 1em;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+footer nav {
+    padding: 1em 0;
+}
+
+footer nav a {
+    padding: 1em;
+}
