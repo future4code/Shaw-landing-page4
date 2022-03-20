@@ -112,8 +112,8 @@ header a {
 
 input {
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 0.5em;
+  margin: 0.5em 0;
   box-sizing: border-box;
   background-color: #ffffff;
   color: #132235;
@@ -121,7 +121,6 @@ input {
 
 .botaoFormulario {
   width: 20%;
-  align-items: center;
 }
 
 /*FOOTER*/
@@ -137,10 +136,12 @@ footer {
 
 footer h3 {
   font-size: 2em;
+  text-decoration: underline;
 }
 
 footer p {
   font-size: 1.5em;
+  text-align: center;
 }
 
 footer nav {
@@ -149,6 +150,10 @@ footer nav {
 
 footer nav a {
   padding: 1em;
+}
+
+footer h4 {
+  text-align: center;
 }
 
 
@@ -173,9 +178,10 @@ footer nav a {
     /*MAIN*/
 
     .quemSomos {
-      background-image: url("https://blog.casashow.com.br/wp-content/uploads/2015/10/O-guia-completo-para-planejar-a-reforma-da-casa-2.jpg"); 
+      /* background-image: url(https://blog.cadinimoveis.com.br/wp-content/uploads/2019/02/274960-comprar-apartamento-antigo-ou-novo-como-definir-a-melhor-opcao.jpg); */
+      background-image: url(https://s2.glbimg.com/ucVO6tC5cVbiab-urZKaW5s3lpg=/645x388/i.glbimg.com/og/ig/infoglobo1/f/original/2020/10/28/id0-_smart_santa_cecilia_1102a-quarto_a_01_r01.jpg);
       color: black;
-      text-shadow: white 0em 0.15em;
+      text-shadow: #6ddad36c -0.1em 0.1em;
       height: 80vh;
     } 
 
