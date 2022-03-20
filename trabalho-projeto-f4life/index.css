@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*HEADER*/
+
+.header-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 0.5rem solid #6ddad3;
+    background-color: #132235;
+}
+
+header img {
+  width: 22%;
+}
+
+header a {
+    color: #6ddad3;
+}
+
+/*MAIN*/
+
+.mainPrincipal {
+  background-color: #ffffff;
+  color: #132235;
+  display: flex;
+  flex-direction: column;
+}
+
+/*QUEM SOMOS*/
+
+.quemSomos {
+  background-image: url("https://www.eagleintercambio.com/wp-content/uploads/2021/08/carteirinha-de-estudande-internacional-1024x576.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.textoQuemSomos {
+  width: 40vw;
+  height: 20vh;
+  text-align: left;
+  padding-top: 3em;
+  padding: 2em;
+  white-space: pre-line;
+  font-size: 1.5em;
+}
+
+/*NOSSOS PRODUTOS*/
+
+.nossosProdutos {
+  font-size: 1.5em;
+  padding: 2em 4rem;
+  background-color: #132235;
+  color: #ffffff;
+  text-align: left;
+}
+
+.nossosProdutos h2 {
+  text-align: center;
+}
+
+.coliving {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#imagemColiving {
+  width: 80%;
+  border-radius: 16px;
+}
+
+.artigoProduto {
+  padding-top: 2em;
+}
+
+.listaDeVantagens {
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+#imagemKitnet {
+  width: 80%;
+  border-radius: 16px;
+}
+
+.kitnet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artigoKitnet {
+  padding-top: 2em;
+}
+
+/*Contato*/
+
+.contato {
+  padding: 2em;
+}
+
+input {
+  width: 100%;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #132235;
+}
+
+.botaoFormulario {
+  width: 20%;
+}
+
+/*FOOTER*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #132235;
+  color: #6ddad3;
+  padding: 1em;
+}
+
+footer h3 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+footer nav {
+  padding: 1em 0;
+}
+
+footer nav a {
+  padding: 1em;
+}
+
+footer h4 {
+  text-align: center;
+}
+
+
+/*Responsividade*/
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+    /*HEADER*/
+
+    .header-div {
+        border: none;
+    }
+    
+    .header-div a {
+        display: none;
+    }
+
+    .header-div img {
+        width: 40%;
+    }
+
+    /*MAIN*/
+
+    .quemSomos {
+      /* background-image: url(https://blog.cadinimoveis.com.br/wp-content/uploads/2019/02/274960-comprar-apartamento-antigo-ou-novo-como-definir-a-melhor-opcao.jpg); */
+      background-image: url(https://s2.glbimg.com/ucVO6tC5cVbiab-urZKaW5s3lpg=/645x388/i.glbimg.com/og/ig/infoglobo1/f/original/2020/10/28/id0-_smart_santa_cecilia_1102a-quarto_a_01_r01.jpg);
+      color: black;
+      text-shadow: #6ddad36c -0.1em 0.1em;
+      height: 80vh;
+    } 
+
+    .textoQuemSomos {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+    }
+
+    /*PRODUTOS*/
+
+    .nossosProdutos {
+      padding: 2em 0;
+    }
+
+    #imagemColiving {
+      width: 100%;
+      border-radius: 0%;
+    }
+
+    .coliving {
+      padding: 0 1em;
+    }
+
+    #imagemKitnet {
+      width: 100%;
+      border-radius: 0%;
+    }
+    
+    .kitnet {
+      padding: 0 1em;
+    }
+}
