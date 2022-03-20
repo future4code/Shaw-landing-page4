@@ -25,6 +25,11 @@ header img {
 
 header a {
     color: #6ddad3;
+    text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }
 
 /*MAIN*/
@@ -38,7 +43,7 @@ header a {
 
 /*QUEM SOMOS*/
 
-.quemSomos {
+#quemSomos {
   background-image: url("https://www.eagleintercambio.com/wp-content/uploads/2021/08/carteirinha-de-estudande-internacional-1024x576.jpg");
   background-size: cover;
   height: 100vh;
@@ -57,7 +62,7 @@ header a {
 
 /*NOSSOS PRODUTOS*/
 
-.nossosProdutos {
+#nossosProdutos {
   font-size: 1.5em;
   padding: 2em 4rem;
   background-color: #132235;
@@ -65,7 +70,7 @@ header a {
   text-align: left;
 }
 
-.nossosProdutos h2 {
+#nossosProdutos h2 {
   text-align: center;
 }
 
@@ -106,7 +111,7 @@ header a {
 
 /*Contato*/
 
-.contato {
+#contato {
   padding: 2em;
 }
 
@@ -177,11 +182,12 @@ footer h4 {
 
     /*MAIN*/
 
-    .quemSomos {
+    #quemSomos {
       /* background-image: url(https://blog.cadinimoveis.com.br/wp-content/uploads/2019/02/274960-comprar-apartamento-antigo-ou-novo-como-definir-a-melhor-opcao.jpg); */
-      background-image: url(https://s2.glbimg.com/ucVO6tC5cVbiab-urZKaW5s3lpg=/645x388/i.glbimg.com/og/ig/infoglobo1/f/original/2020/10/28/id0-_smart_santa_cecilia_1102a-quarto_a_01_r01.jpg);
-      color: black;
-      text-shadow: #6ddad36c -0.1em 0.1em;
+      /* background-image: url(https://s2.glbimg.com/ucVO6tC5cVbiab-urZKaW5s3lpg=/645x388/i.glbimg.com/og/ig/infoglobo1/f/original/2020/10/28/id0-_smart_santa_cecilia_1102a-quarto_a_01_r01.jpg); */
+      background-image: none;
+      background-image: linear-gradient(to bottom, #132235, #316663af);
+      color: white;
       height: 80vh;
     } 
 
@@ -193,7 +199,7 @@ footer h4 {
 
     /*PRODUTOS*/
 
-    .nossosProdutos {
+    #nossosProdutos {
       padding: 2em 0;
     }
 

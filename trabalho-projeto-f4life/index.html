@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="index.css">
 </head>
 
+
 <body>
 
-    <header>
+    <header role="menu-bar">
         <div class="header-div">
-            <a href="">Quem somos</a>
-            <a href="">Podutos</a>
-            <a href="">Contatos</a>
             <a href="/index.html#footer">Onde estamos</a>
-            <img src="imagens/martineli-imagens/logo.png" alt="imagen logo">
+            <a href="/index.html#contato">Contatos</a>
+            <a href="/index.html#nossosProdutos">Podutos</a>
+            <a href="/index.html#quemSomos">Quem somos</a>
+            <img src="imagens/martineli-imagens/logo.png" alt="imagem logo">
         </div>
     </header>
     
-    <main>
+    <main role="menu-item">
         <div class="mainPrincipal">
-
-            <div class="quemSomos">
+            <div id="quemSomos">
                 <div class="textoQuemSomos">
                     <h1>Somos a F4LIFE Moradias Universitárias</h1>
                     <article>
@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="nossosProdutos">
+            <div id="nossosProdutos">
                 <h2>Nossos Produtos</h2>
                 <br>
                 <div class="coliving">
@@ -64,7 +64,7 @@
                 <br>
                 
                 <div class="kitnet">
-                    <img id="imagemKitnet" src="https://plazachapeco.com.br/blog/wp-content/uploads/2019/02/diferenca-entre-kitnet-studio-flat-e-loft-797x534.jpg" alt="Foto moradia compartilhada" usemap="#modcompart">
+                    <img id="imagemKitnet" src="https://plazachapeco.com.br/blog/wp-content/uploads/2019/02/diferenca-entre-kitnet-studio-flat-e-loft-797x534.jpg" alt="Foto moradia compartilhada 2" usemap="#modcompart">
                     <article class="artigoKitnet">
                         <h3>Kitnets</h3>
                         <br>
@@ -86,7 +86,7 @@
                 </div>
             </div>
 
-            <div class="contato">
+            <div id="contato" role="contact">
                 <h2>Encontre um lar para chamar de seu</h2>
                 <br>
                 <form action="/action_page.php">
@@ -104,7 +104,7 @@
         </div>
     </main>
 
-    <footer id="footer">
+    <footer id="footer" role="final-information">
             <h3>Onde estamos</h3>
             <br>
             <p> Avenida de Pruneridge, 19111 - Cupertino, CA 95014 </p>
