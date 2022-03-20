@@ -1,0 +1,35 @@
+.imagenheader{
+    border-top: 2%;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #132235;
+    padding: 10px;
+    border: 1vmin solid  #6ddad3;
+    flex-direction: row;
+    width: 100%;
+    
+    
+}
+#letraTamanho{
+    font-size: 100%;
+}
+
+.imglogo{
+     width: 22% ;
+    
+     
+    
+}
+.marca{
+    color: #6ddad3;
+    justify-content: flex-start;
+   
+    
+}
+
+    
+    
+#txtcor{
+    color: #6ddad3;
+}
