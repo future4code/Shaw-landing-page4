@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/98998030/159188622-0eb4d593-9c05-4af3-b1a3-13d2536b9957.png" alt="logo da empresa" width="350px"/>
 </div>
 
-# :page_facing_up: LANDING PAGE: F4LIFE
+# :page_facing_up: LANDING PAGE4: F4LIFE
 Projeto proposto pela instituição Labenu.
 <br>
 <br>
